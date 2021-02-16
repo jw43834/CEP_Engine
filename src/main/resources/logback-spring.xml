@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <jmxConfigurator/>
+
+    <logger name="com.cnl" level="DEBUG"/>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+    <!--    <springProfile name="local">-->
+    <!--        <root level="DEBUG">-->
+    <!--            <appender-ref ref="FILE" />-->
+    <!--            <appender-ref ref="STDOUT" />-->
+    <!--        </root>-->
+    <!--    </springProfile>-->
+    <!--    <springProfile name="real">-->
+    <!--        <root level="INFO">-->
+    <!--            <appender-ref ref="FILE" />-->
+    <!--            <appender-ref ref="STDOUT" />-->
+    <!--        </root>-->
+    <!--    </springProfile>-->
+</configuration>
